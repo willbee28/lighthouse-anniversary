@@ -9,7 +9,7 @@ const Sponsors = () => {
         <span>Lense Level</span>
         <hr className="border-1 w-30 mx-2 border-slate-600" />
       </div>
-      <div className="flex flex-row justify-center gap-4">
+      <div className="flex flex-row flex-wrap justify-center gap-4">
         <div className="w-80 h-80 flex justify-center items-center">
           <a
             href="https://www.petitbon.com/"
@@ -44,7 +44,7 @@ const Sponsors = () => {
         <span>Privy Level</span>
         <hr className="border-1 w-30 mx-2 border-slate-600" />
       </div>
-      <div className="flex flex-row justify-center gap-12 mt-1">
+      <div className="flex flex-row flex-wrap justify-center gap-12 mt-1">
         <div className="w-40 h-44 flex justify-center items-center">
           <a
             href="https://www.chesapeakeconservancy.org/"
@@ -79,7 +79,7 @@ const Sponsors = () => {
         <span>Bodacious Level</span>
         <hr className="border-1 w-12 mx-2 border-slate-600" />
       </div>
-      <div className="flex flex-row justify-center gap-12 mt-1">
+      <div className="flex flex-row flex-wrap justify-center gap-12 mt-1">
         <div className="w-56 h-56 flex justify-center items-center">
           <a
             href=""
