@@ -1,8 +1,4 @@
-import { useState } from "react";
-
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="flex flex-col>">
       <div className="bg-primary w-1/7 mt-18 mb-8 mr-1"></div>

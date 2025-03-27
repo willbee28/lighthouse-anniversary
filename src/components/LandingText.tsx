@@ -1,4 +1,4 @@
-import Sponsors from "./sponsors";
+import Sponsors from "./Sponsors";
 
 function LandingText() {
   return (
