@@ -9,32 +9,28 @@ const Sponsors = () => {
         <span>Lense Level</span>
         <hr className="border-1 w-30 mx-2 border-slate-600" />
       </div>
-      <div className="flex flex-row justify-center gap-4">
-        <div className="w-80 h-80 flex justify-center items-center">
+      <div className="flex flex-row gap-4 mt-12">
+        <div className="flex flex-col justify-center">
           <a
             href="https://www.petitbon.com/"
-            className="hover:bg-blue-100 hover:rounded-full p-4"
+            className="hover:bg-blue-100 hover:rounded-full lg:p-8"
             rel="noreferrer"
             target="_blank"
           >
-            <img
-              className="w-full h-full"
-              src="/sponsor-logos/petitbon.png"
-              alt="Petitbon"
-            />
+            <img src="/sponsor-logos/petitbon.png" width={300} height={300} />
           </a>
         </div>
-        <div className="w-100 h-80 flex justify-center items-center">
+        <div className="flex flex-col justify-center">
           <a
             href="https://www.constellationhome.com/md/areas-we-serve/anne-arundel-county/"
-            className="hover:bg-blue-100 hover:rounded-full p-4"
+            className="hover:bg-blue-100 hover:rounded-full lg:p-8"
             rel="noreferrer"
             target="_blank"
           >
             <img
-              className="w-full h-full"
               src="/sponsor-logos/constellation.png"
-              alt="Constellation"
+              width={380}
+              height={380}
             />
           </a>
         </div>
@@ -44,33 +40,25 @@ const Sponsors = () => {
         <span>Privy Level</span>
         <hr className="border-1 w-30 mx-2 border-slate-600" />
       </div>
-      <div className="flex flex-row justify-center gap-12 mt-1">
-        <div className="w-40 h-44 flex justify-center items-center">
+      <div className="flex flex-row gap-12 mt-1">
+        <div className="flex flex-col justify-center">
           <a
-            href="https://www.chesapeakeconservancy.org/"
-            className="hover:bg-blue-100 hover:rounded-full p-4"
+            href="https://www.chesapeakeconservancy.org/?utm_source=Google&utm_medium=CPC&utm_campaign=CB&gad_source=1&gclid=Cj0KCQjwy46_BhDOARIsAIvmcwNJeEmcc0Hvpj-8-ib-h5ay3T96i5Zpc8vbGjz9gLMvGCO_JGbG5AwaAtWiEALw_wcB"
+            className="hover:bg-blue-100 hover:rounded-full lg:p-8"
             rel="noreferrer"
             target="_blank"
           >
-            <img
-              className="w-full h-full"
-              src="/sponsor-logos/chesapeake.svg"
-              alt="Chesapeake"
-            />
+            <img src="/sponsor-logos/chesapeake.svg" width={100} height={100} />
           </a>
         </div>
-        <div className="w-56 h-48 flex justify-center items-center">
+        <div className="flex flex-col justify-center">
           <a
             href="https://www.msimarinesolutions.com/"
-            className="hover:bg-blue-100 hover:rounded-full p-4"
+            className="hover:bg-blue-100 hover:rounded-full lg:p-8"
             rel="noreferrer"
             target="_blank"
           >
-            <img
-              className="w-full h-full"
-              src="/sponsor-logos/marine.png"
-              alt="Marine Solutions"
-            />
+            <img src="/sponsor-logos/marine.png" width={200} height={200} />
           </a>
         </div>
       </div>
@@ -79,38 +67,40 @@ const Sponsors = () => {
         <span>Bodacious Level</span>
         <hr className="border-1 w-12 mx-2 border-slate-600" />
       </div>
-      <div className="flex flex-row justify-center gap-12 mt-1">
-        <div className="w-56 h-56 flex justify-center items-center">
+      <div className="flex flex-row gap-12 mt-1">
+        <div className="flex flex-col justify-center">
           <a
             href=""
             className="hover:bg-primary bg-secondary rounded-4xl p-4"
             rel="noreferrer"
             target="_blank"
           >
-            <img
-              className="w-full h-full"
-              src="/sponsor-logos/mh.png"
-              alt="MH Sponsor"
-            />
+            <img src="/sponsor-logos/mh.png" width={250} height={250} />
           </a>
         </div>
-        <div className="w-30 h-52 flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center">
           <a
             href="https://www.eyeonannapolis.net/"
-            className="hover:bg-blue-100 hover:rounded-full "
+            className="hover:bg-blue-100 hover:rounded-full lg:p-8"
             rel="noreferrer"
             target="_blank"
           >
-            <img
-              className="w-full h-full"
-              src="/sponsor-logos/eye.png"
-              alt="Eye on Annapolis"
-            />
+            <img src="/sponsor-logos/eye.png" width={150} height={150} />
+          </a>
+        </div>
+        <div className="flex flex-col justify-center">
+          <a
+            href=""
+            className="hover:bg-blue-100 hover:rounded-full lg:p-8"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src="/sponsor-logos/chesapeake.svg" width={150} height={150} />
           </a>
         </div>
       </div>
       <div className="flex flex-col gap-4 text-center leading-6 text-lg mt-16">
-        <div className="flex flex-row gap-6 justify-center">
+        <div className="flex flex-row gap-6">
           <div>Sponsorships still available</div>
           <div>
             Contact John Potvin ( jpotvin48@gmail.com ) for more information

@@ -30,21 +30,24 @@ function LandingText() {
       <div className="flex flex-col items-center pt-36 px-12 lg:px-48 bg-primary text-primary-foreground text-4xl">
         <div className="flex items-center font-semibold mb-8">
           <hr className="border-1 w-30 mx-2" />
-          <span> Guest Speakers</span>
+          <span className="text-center"> Guest Speakers</span>
           <hr className="border-1 w-30 mx-2" />
         </div>
-        <div className="text-center">
-          US Senator <b>Chris Van Hollen</b>, Congressman John Sarbanes,
-          Maryland Governor <b>Wes Moore</b>, State Senator <b>Sarah Elfreth</b>{" "}
-          , County Executive <b>Stuart Pittman</b>, Annapolis Mayor{" "}
-          <b>Gavin Buckley</b>, former Annapolis Mayor <b>Ellen Moyer</b>, US
-          Lighthouse President Henry Gonzalez, National Park Service Chesapeake
-          Gateways Superintendent Wendy O’Sullivan, Chesapeake Conservancy
-          President and CEO Joel Dunn
+        <div className="text-center font-light">
+          US Senator <b className="font-bold">Chris Van Hollen</b>, Congressman
+          John Sarbanes, Maryland Governor{" "}
+          <b className="font-bold">Wes Moore</b>, State Senator{" "}
+          <b className="font-bold">Sarah Elfreth</b> , County Executive{" "}
+          <b className="font-bold">Stuart Pittman</b>, Annapolis Mayor{" "}
+          <b className="font-bold">Gavin Buckley</b>, former Annapolis Mayor{" "}
+          <b className="font-bold">Ellen Moyer</b>, US Lighthouse President
+          Henry Gonzalez, National Park Service Chesapeake Gateways
+          Superintendent Wendy O’Sullivan, Chesapeake Conservancy President and
+          CEO Joel Dunn
         </div>
         <div className="flex items-center font-semibold mt-24">
           <hr className="border-1 w-30 mx-2" />
-          <span>Included in your ticket</span>
+          <span className="text-center">Included in your ticket</span>
           <hr className="border-1 w-30 mx-2" />
         </div>
         <div className="flex flex-col my-8 gap-4 text-center">
@@ -53,7 +56,7 @@ function LandingText() {
         <div className="">music by the incomparable Eastport Oyster Boys</div>
         <div className="flex items-center font-semibold mt-16 mb-4">
           <hr className="border-1 w-30 mx-2" />
-          <span>When</span>
+          <span className="text-center">When</span>
           <hr className="border-1 w-30 mx-2" />
         </div>
         <div className="my-4">Saturday, August 9, 2025</div>
@@ -61,7 +64,7 @@ function LandingText() {
         <div className="mt-4">Premium tickets: 6:00 – 7:00 pm</div>
         <div className="flex items-center font-semibold mt-16">
           <hr className="border-1 w-30 mx-2" />
-          <span>Where</span>
+          <span className="text-center">Where</span>
           <hr className="border-1 w-30 mx-2" />
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 mt-12 mb-24">
@@ -81,7 +84,7 @@ function LandingText() {
         </div>
         <div className="flex items-center font-semibold">
           <hr className="border-1 w-30 mx-2" />
-          <span>Cost</span>
+          <span className="text-center">Cost</span>
           <hr className="border-1 w-30 mx-2" />
         </div>
         <div className="text-center my-12">
@@ -102,7 +105,7 @@ function LandingText() {
           </a>
         </div>
       </div>
-      <div className="flex flex-col items-center  my-32 leading-24 text-primary font-semibold mx-48">
+      <div className="flex flex-col items-center  my-32 leading-24 text-primary font-semibold mx-12 lg:mx-48">
         <Sponsors />
       </div>
     </div>
