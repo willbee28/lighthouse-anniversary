@@ -11,63 +11,102 @@ function LandingText() {
         </span>
         of the Thomas Point Shoal Lighthouse
       </div>
-      <div className="flex flex-col items-center pb-36 px-12 lg:px-48 text-4xl leading-12 text-center">
-        The Thomas Point Shoal Lighthouse will celebrate its 150th anniversary
-        this year with a special celebration on August 9, 2025. The Anniversary
-        Celebration is a call to action because the lighthouse faces an
-        existential threat from sea levels rising.
-        <br />
-        <br />
-        Since 2023, the landing dock has been damaged repeatedly by numerous
-        serious storms and higher than normal tides. Our goal is to raise the
-        lighthouse level to ensure that this historic structure will remain for
-        our grandchildren and great grandchildren.
-        <br />
-        <br />
+      <div className="grid grid-cols-1 xl:grid-cols-2">
+        <div className=" px-12 mt-12 text-4xl leading-12 text-center ">
+          The Thomas Point Shoal Lighthouse will celebrate its 150th anniversary
+          this year with a special celebration on August 9, 2025. The
+          Anniversary Celebration is a call to action because the lighthouse
+          faces an existential threat from sea levels rising.
+          <br />
+          <br />
+          Since 2023, the landing dock has been damaged repeatedly by numerous
+          serious storms and higher than normal tides. Our goal is to raise the
+          lighthouse level to ensure that this historic structure will remain
+          for our grandchildren and great grandchildren.
+          <br />
+          <br />
+        </div>
+        <img
+          src="./Seagulls.jpg"
+          alt="Lighthouse Picture 1"
+          className="h-150 w-200 object-cover object-left mx-auto rounded-sm"
+        />
+      </div>
+      <div className="flex flex-col items-center pt-24 pb-36 px-12 lg:px-48 text-4xl leading-12 text-center">
         Sponsors and ticket sales for the event will provide funding to develop
         an engineering solution on how to elevate the lighthouse.
       </div>
-      <div className="flex flex-col items-center pt-36 px-12 lg:px-48 bg-primary text-primary-foreground text-4xl">
-        <div className="flex items-center font-semibold mb-8">
-          <hr className="border-1 w-30 mx-2" />
-          <span className="text-center"> Guest Speakers</span>
-          <hr className="border-1 w-30 mx-2" />
-        </div>
-        <div className="text-center font-light">
-          US Senator <b className="font-bold">Chris Van Hollen</b>, Congressman
-          John Sarbanes, Maryland Governor{" "}
-          <b className="font-bold">Wes Moore</b>, State Senator{" "}
-          <b className="font-bold">Sarah Elfreth</b> , County Executive{" "}
-          <b className="font-bold">Stuart Pittman</b>, Annapolis Mayor{" "}
-          <b className="font-bold">Gavin Buckley</b>, former Annapolis Mayor{" "}
-          <b className="font-bold">Ellen Moyer</b>, US Lighthouse President
-          Henry Gonzalez, National Park Service Chesapeake Gateways
-          Superintendent Wendy O’Sullivan, Chesapeake Conservancy President and
-          CEO Joel Dunn
+
+      <div className="flex flex-col items-center pt-36 sm:px-12 3xl:px-48 bg-primary text-primary-foreground text-4xl">
+        <div className="grid grid-cols-1 xl:grid-cols-2">
+          <img
+            src="./Thomas Point.jpg"
+            alt="Lighthouse Picture 1"
+            className="w-150 h-200 mx-auto object-cover rounded-sm"
+          />
+          <div className="flex flex-col items-center">
+            <div className="flex items-center font-semibold mb-8 mt-12">
+              <hr className="border-1 w-30 mx-2" />
+              <span className="text-center">Invited Guest Speakers</span>
+              <hr className="border-1 w-30 mx-2" />
+            </div>
+            <div className="text-center font-light leading-12">
+              - US Senator{" "}
+              <b className="text-orange-200  font-bold">Chris Van Hollen</b>
+              <br /> - Congressman{" "}
+              <b className="text-orange-200 font-bold">John Sarbanes</b>
+              <br />- Maryland Governor{" "}
+              <b className="text-orange-200 font-bold">Wes Moore</b>
+              <br /> - State Senator{" "}
+              <b className="text-orange-200 font-bold">Sarah Elfreth</b>
+              <br /> - County Executive{" "}
+              <b className="text-orange-200 font-bold">Stuart Pittman</b>
+              <br /> - Annapolis Mayor{" "}
+              <b className="text-orange-200 font-bold">Gavin Buckley</b>
+              <br /> - Former Annapolis Mayor{" "}
+              <b className="text-orange-200 font-bold">Ellen Moyer</b>
+              <br /> - US Lighthouse President{" "}
+              <b className="text-orange-200 font-bold">Henry Gonzalez</b>
+              <br /> - National Park Service Chesapeake Gateways Superintendent{" "}
+              <b className="text-orange-200 font-bold">Wendy O’Sullivan</b>
+              <br /> - Chesapeake Conservancy President and CEO{" "}
+              <b className="text-orange-200 font-bold">Joel Dunn</b>
+            </div>
+          </div>
         </div>
         <div className="flex items-center font-semibold mt-24">
           <hr className="border-1 w-30 mx-2" />
           <span className="text-center">Included in your ticket</span>
           <hr className="border-1 w-30 mx-2" />
         </div>
-        <div className="flex flex-col my-8 gap-4 text-center">
-          Dinner, door prizes, wine pull, &<div></div>
+        <div className="flex flex-col my-8 gap-4 text-center leading-16">
+          -Dinner
+          <br />
+          - Door prizes
+          <br />
+          -Wine pull
+          <br />
         </div>
-        <div className="">music by the incomparable Eastport Oyster Boys</div>
+        <div className="flex flex-col">
+          <span className="text-center">With music by the incomparable</span>{" "}
+          <br />
+          <b className="text-orange-200 font-bold text-center">
+            Eastport Oyster Boys
+          </b>
+        </div>
         <div className="flex items-center font-semibold mt-16 mb-4">
           <hr className="border-1 w-30 mx-2" />
-          <span className="text-center">When</span>
+          <span className="">When</span>
           <hr className="border-1 w-30 mx-2" />
         </div>
-        <div className="my-4">Saturday, August 9, 2025</div>
-        <div className="my-4">General Admission: 6:30 pm to 9:00 pm</div>
-        <div className="mt-4">Premium tickets: 6:00 – 7:00 pm</div>
+        <div className="mt-8 font-semi-bold">Saturday, August 9, 2025</div>
+        <div className="mt-4">6:30 pm to 9:00 pm</div>
         <div className="flex items-center font-semibold mt-16">
           <hr className="border-1 w-30 mx-2" />
-          <span className="text-center">Where</span>
+          <span className="">Where</span>
           <hr className="border-1 w-30 mx-2" />
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 mt-12 mb-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 mt-12 mb-24 lg:gap-12">
           <div className="flex justify-center">
             <iframe
               className="rounded-lg"
@@ -78,7 +117,7 @@ function LandingText() {
             ></iframe>
           </div>
           <div className="text-center leading-12 mt-28 ml-4">
-            <div className="">The Navy Marine Corp Memorial Stadium</div>
+            <div className="">Navy Marine Corp Memorial Stadium</div>
             <div className="">Taylor Avenue, Annapolis, Md.</div>
           </div>
         </div>
@@ -91,18 +130,26 @@ function LandingText() {
           Tickets <b>$150</b> per person (limit 300 tickets)
           <br />
           <br />
-          Premium tickets <b>$250</b> per person (limit 50 tickets) (includes
-          meet and greet with Speakers and special)
-          <br />
-          <br />
-          Sales start June 1, 2025 & you can buy tickets{" "}
-          <a
-            href="https://www.eventbrite.com/organizations/tpsl150celebration"
-            rel="noreferrer"
-            target="_blank"
-          >
-            here
-          </a>
+          <div className="mt-4">
+            Premium tickets <b>$250</b> per person (limit 50 tickets)
+          </div>
+          <div className="mt-10 leading-14">
+            <div>Premium tickets include:</div>
+            - Meet and greet with guest speakers
+            <br />
+            - Special VIP reception (6:00 pm - 6:30 pm)
+            <br /> - Early entrance at 6:00pm
+          </div>
+          <div className="mt-28 mb-10">
+            Sales start June 1, 2025 & you can buy tickets{" "}
+            <a
+              href="https://www.eventbrite.com/organizations/tpsl150celebration"
+              rel="noreferrer"
+              target="_blank"
+            >
+              here
+            </a>
+          </div>
         </div>
       </div>
       <div className="flex flex-col items-center  my-32 leading-24 text-primary font-semibold mx-12 lg:mx-48">
