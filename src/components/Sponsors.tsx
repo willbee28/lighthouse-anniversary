@@ -213,12 +213,14 @@ const Sponsors = () => {
           </a>
         </div> */}
       </div>
-      <div className="flex flex-col ga text-center leading-6 text-lg mt-16 gap-1">
-        <div>Sponsorships still available</div>
-        <div>
-          Contact John Potvin ( jpotvin48@gmail.com ) for more information
+      <div className="flex flex-col ga text-center leading-6 text-lg mt-16">
+        <div className="flex xl:flex-row flex-col gap-3">
+          <div>Sponsorships still available</div>
+          <div>
+            Contact John Potvin ( jpotvin48@gmail.com ) for more information
+          </div>
         </div>
-        <div>
+        <div className="mt-3">
           Advertising in program guide available. ¼ Page $350 ½ Page $500 Full
           Page $750
         </div>
