@@ -143,6 +143,7 @@ function LandingText() {
           <div className="mt-28 mb-10">
             Sales start June 1, 2025 & you can buy tickets{" "}
             <a
+              className="text-amber-400 hover:text-blue-900 hover:underline"
               href="https://www.eventbrite.com/organizations/tpsl150celebration"
               rel="noreferrer"
               target="_blank"

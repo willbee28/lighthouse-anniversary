@@ -3,15 +3,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-a:hover {
-  color: #2432fb; /* Amber-200 color */
-}
-
-a {
-  color: #fbbf24; /* Blue-500 color */
-  text-decoration: underline;
-}
-
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -138,4 +129,16 @@ a {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* font for sponsor */
+@font-face {
+  font-family: "Abril Text";
+  src: url("/fonts/AbrilText-Regular.woff2") format("woff2");
+}
+
+.font-abril-text {
+  font-family: "Abril Text", serif; /* Use the font loaded from Google Fonts */
+  font-weight: 400; /* Regular weight */
+  color: #29407f; /* Set the desired color */
 }
