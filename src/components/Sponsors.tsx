@@ -13,7 +13,7 @@ const Sponsors = () => {
         <div className="w-80 h-80 flex justify-center items-center">
           <a
             href="https://www.petitbon.com/"
-            className="hover:bg-blue-100 hover:rounded-full p-4"
+            className="p-4"
             rel="noreferrer"
             target="_blank"
           >
@@ -27,7 +27,7 @@ const Sponsors = () => {
         <div className="w-100 h-80 flex justify-center items-center">
           <a
             href="https://www.constellationhome.com/md/areas-we-serve/anne-arundel-county/"
-            className="hover:bg-blue-100 hover:rounded-full p-4"
+            className="p-4"
             rel="noreferrer"
             target="_blank"
           >
@@ -48,7 +48,7 @@ const Sponsors = () => {
         <div className="w-40 h-44 flex justify-center items-center">
           <a
             href="https://www.chesapeakeconservancy.org/"
-            className="hover:bg-blue-100 hover:rounded-full p-4"
+            className="p-4"
             rel="noreferrer"
             target="_blank"
           >
@@ -62,7 +62,7 @@ const Sponsors = () => {
         <div className="w-56 h-48 flex justify-center items-center">
           <a
             href="https://www.msimarinesolutions.com/"
-            className="hover:bg-blue-100 hover:rounded-full p-4"
+            className="p-4"
             rel="noreferrer"
             target="_blank"
           >
@@ -97,7 +97,7 @@ const Sponsors = () => {
         <div className="w-30 h-52 flex flex-col justify-center items-center">
           <a
             href="https://www.eyeonannapolis.net/"
-            className="hover:bg-blue-100 hover:rounded-full "
+            className=""
             rel="noreferrer"
             target="_blank"
           >
