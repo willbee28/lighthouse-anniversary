@@ -6,7 +6,7 @@ const Sponsors = () => {
       </div>
       <div className="flex items-center text-5xl font-semibold mt-16 text-center leading-12">
         <hr className="border-1 w-30 mx-2 border-slate-600" />
-        <span>Lense Level</span>
+        <span>Lens Level</span>
         <hr className="border-1 w-30 mx-2 border-slate-600" />
       </div>
       <div className="flex flex-row flex-wrap justify-center max-w-3/4">
@@ -98,19 +98,6 @@ const Sponsors = () => {
         </div>
         <div className="w-40 flex justify-center items-center">
           <a
-            href="https://eaest.com/"
-            className=""
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img
-              src="/sponsor-logos/EA.webp"
-              alt="EA Enginerring Science & Technology Inc."
-            />
-          </a>
-        </div>
-        <div className="w-40 flex justify-center items-center">
-          <a
             href="https://www.maderperformanceinsurance.com/"
             className=""
             rel="noreferrer"
@@ -162,8 +149,9 @@ const Sponsors = () => {
             target="_blank"
           >
             <img
-              src="/sponsor-logos/woodwind_refined.png"
+              src="/sponsor-logos/schooner.png"
               alt="wood wind sailing cruises"
+              className="rounded-sm"
             />
           </a>
         </div>
@@ -202,7 +190,7 @@ const Sponsors = () => {
             <img src="/sponsor-logos/eye.png" alt="Eye on Annapolis" />
           </a>
         </div>
-        {/* <div className="w-30 h-40 flex flex-col justify-center items-center">
+        <div className="w-45 h-40 flex flex-col justify-center items-center">
           <a
             href="https://www.naptownscoop.com/"
             className=""
@@ -211,7 +199,7 @@ const Sponsors = () => {
           >
             <img src="/sponsor-logos/naptown_scoop.png" alt="Nap Town Scoop" />
           </a>
-        </div> */}
+        </div>
       </div>
       <div className="flex flex-col ga text-center leading-6 text-lg mt-16">
         <div className="flex xl:flex-row flex-col gap-3">
