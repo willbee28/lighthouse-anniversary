@@ -14,7 +14,7 @@ const Sponsors = () => {
           <a
             href="https://www.petitbon.com/"
             className="hover:bg-blue-100 hover:rounded-full lg:p-8"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img src="/sponsor-logos/petitbon.png" width={300} height={300} />
@@ -24,7 +24,7 @@ const Sponsors = () => {
           <a
             href="https://www.constellationhome.com/md/areas-we-serve/anne-arundel-county/"
             className="hover:bg-blue-100 hover:rounded-full lg:p-8"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img
@@ -45,7 +45,7 @@ const Sponsors = () => {
           <a
             href="https://www.chesapeakeconservancy.org/?utm_source=Google&utm_medium=CPC&utm_campaign=CB&gad_source=1&gclid=Cj0KCQjwy46_BhDOARIsAIvmcwNJeEmcc0Hvpj-8-ib-h5ay3T96i5Zpc8vbGjz9gLMvGCO_JGbG5AwaAtWiEALw_wcB"
             className="hover:bg-blue-100 hover:rounded-full lg:p-8"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img src="/sponsor-logos/chesapeake.svg" width={100} height={100} />
@@ -55,7 +55,7 @@ const Sponsors = () => {
           <a
             href="https://www.msimarinesolutions.com/"
             className="hover:bg-blue-100 hover:rounded-full lg:p-8"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img src="/sponsor-logos/marine.png" width={200} height={200} />
@@ -72,7 +72,7 @@ const Sponsors = () => {
           <a
             href=""
             className="hover:bg-primary bg-secondary rounded-4xl p-4"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img src="/sponsor-logos/mh.png" width={250} height={250} />
@@ -82,7 +82,7 @@ const Sponsors = () => {
           <a
             href="https://www.eyeonannapolis.net/"
             className="hover:bg-blue-100 hover:rounded-full lg:p-8"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img src="/sponsor-logos/eye.png" width={150} height={150} />
@@ -92,7 +92,7 @@ const Sponsors = () => {
           <a
             href=""
             className="hover:bg-blue-100 hover:rounded-full lg:p-8"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img src="/sponsor-logos/chesapeake.svg" width={150} height={150} />

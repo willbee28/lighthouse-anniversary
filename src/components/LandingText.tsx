@@ -145,7 +145,7 @@ function LandingText() {
             <a
               className="text-amber-400 hover:text-blue-900 hover:underline"
               href="https://www.eventbrite.com/organizations/tpsl150celebration"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               target="_blank"
             >
               here
