@@ -69,8 +69,6 @@ function LandingText() {
               <b className="text-orange-200 font-bold">Henry Gonzalez</b>
               <br /> - National Park Service Chesapeake Gateways Superintendent{" "}
               <b className="text-orange-200 font-bold">Wendy O’Sullivan</b>
-              <br /> - Chesapeake Conservancy President and CEO{" "}
-              <b className="text-orange-200 font-bold">Joel Dunn</b>
             </div>
           </div>
         </div>
@@ -144,7 +142,7 @@ function LandingText() {
             Sales start June 1, 2025 & you can buy tickets{" "}
             <a
               className="text-amber-400 hover:text-blue-900 hover:underline"
-              href="https://www.eventbrite.com/organizations/tpsl150celebration"
+              href="https://www.eventbrite.com/e/thomas-point-shoal-lighthouse-150th-anniversary-celebration-tickets-1321907764709?aff=oddtdtcreator"
               rel="noopener noreferrer"
               target="_blank"
             >

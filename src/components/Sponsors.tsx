@@ -11,7 +11,11 @@ const Sponsors = () => {
       </div>
       <div className="flex flex-row flex-wrap justify-center max-w-3/4">
         <div className="w-80 h-80 flex justify-center items-center">
-          <a href="https://www.petitbon.com/" rel="noreferrer" target="_blank">
+          <a
+            href="https://www.petitbon.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <img
               className="p-4"
               src="/sponsor-logos/petitbon.png"
@@ -22,7 +26,7 @@ const Sponsors = () => {
         <div className="w-100 h-80 flex justify-center items-center">
           <a
             href="https://www.constellationhome.com/md/areas-we-serve/anne-arundel-county/"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img
@@ -36,7 +40,7 @@ const Sponsors = () => {
           <a
             href="https://www.chesapeakebaytours.com/"
             className="text-4xl"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             Bay Tours LLC
@@ -46,7 +50,7 @@ const Sponsors = () => {
           <a
             href="https://www.gosnellfoundation.org/"
             className="font-abril-text text-5xl mx-auto"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             Gosnell Foundation
@@ -55,7 +59,7 @@ const Sponsors = () => {
         <div className="w-100 h-80 flex justify-center items-center">
           <a
             href="https://www.mdquesters.org/"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img
@@ -76,7 +80,7 @@ const Sponsors = () => {
           <a
             href="https://www.chesapeakeconservancy.org/"
             className=""
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img
@@ -90,7 +94,7 @@ const Sponsors = () => {
           <a
             href="https://www.msimarinesolutions.com/"
             className=""
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img src="/sponsor-logos/marine.png" alt="Marine Solutions" />
@@ -100,7 +104,7 @@ const Sponsors = () => {
           <a
             href="https://www.maderperformanceinsurance.com/"
             className=""
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img src="/sponsor-logos/craig.png" alt="Craig Mader Insurance" />
@@ -114,14 +118,18 @@ const Sponsors = () => {
       </div>
       <div className="flex flex-row flex-wrap justify-center gap-12 mt-1">
         <div className="w-44 h-44 flex justify-center items-center">
-          <a href="https://www.mhlawyers.com/" rel="noreferrer" target="_blank">
+          <a
+            href="https://www.mhlawyers.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <img src="/sponsor-logos/mh_refined.png" alt="MH Sponsor" />
           </a>
         </div>
         <div className="w-44 h-44 flex justify-center items-center">
           <a
             href="https://deanyachtcompany.com/"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img
@@ -133,7 +141,7 @@ const Sponsors = () => {
         <div className="w-44 h-44 flex justify-center items-center">
           <a
             href="https://bachmansroofing.com/"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img
@@ -145,7 +153,7 @@ const Sponsors = () => {
         <div className="w-44 h-44 flex justify-center items-center">
           <a
             href="https://schoonerwoodwind.com/"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img
@@ -156,12 +164,20 @@ const Sponsors = () => {
           </a>
         </div>
         <div className="w-44 h-44 flex justify-center items-center">
-          <a href="https://www.spinsheet.com/" rel="noreferrer" target="_blank">
+          <a
+            href="https://www.spinsheet.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <img src="/sponsor-logos/spinsheet.png" alt="spinsheet sailing" />
           </a>
         </div>
         <div className="w-44 h-44 flex justify-center items-center">
-          <a href="https://www.proptalk.com/" rel="noreferrer" target="_blank">
+          <a
+            href="https://www.proptalk.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <img
               src="/sponsor-logos/proptalk_refined.png"
               alt="prop talk magazine"
@@ -171,7 +187,7 @@ const Sponsors = () => {
         <div className="w-44 h-44 flex justify-center items-center">
           <a
             href="https://www.fishtalkmag.com/"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img
@@ -184,7 +200,7 @@ const Sponsors = () => {
           <a
             href="https://www.eyeonannapolis.net/"
             className=""
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img src="/sponsor-logos/eye.png" alt="Eye on Annapolis" />
@@ -194,7 +210,7 @@ const Sponsors = () => {
           <a
             href="https://www.naptownscoop.com/"
             className=""
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <img src="/sponsor-logos/naptown_scoop.png" alt="Nap Town Scoop" />
