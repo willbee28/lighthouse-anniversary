@@ -5,9 +5,8 @@ function LandingText() {
     <div className="bg-amber-50">
       <div className="text-5xl text-center my-32 leading-24 text-slate-600 font-semibold px-12 lg:px-48">
         Join us for{" "}
-        <span className="text-primary">
-          {" "}
-          The <span>150th</span> Anniversary Celebration{" "}
+        <span>
+          the <span>150th</span> Anniversary Celebration{" "}
         </span>
         of the Thomas Point Shoal Lighthouse
       </div>
@@ -57,7 +56,7 @@ function LandingText() {
               <b className="text-orange-200 font-bold">John Sarbanes</b>
               <br />- Maryland Governor{" "}
               <b className="text-orange-200 font-bold">Wes Moore</b>
-              <br /> - State Senator{" "}
+              <br /> - US Congresswoman{" "}
               <b className="text-orange-200 font-bold">Sarah Elfreth</b>
               <br /> - County Executive{" "}
               <b className="text-orange-200 font-bold">Stuart Pittman</b>
