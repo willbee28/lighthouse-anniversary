@@ -124,7 +124,7 @@ function LandingText() {
           <hr className="border-1 w-30 mx-2" />
         </div>
         <div className="text-center my-12">
-          Tickets <b>$150</b> per person (limit 300 tickets)
+          Tickets <b>$150</b> per person (limit 250 tickets)
           <br />
           <br />
           <div className="mt-4">
