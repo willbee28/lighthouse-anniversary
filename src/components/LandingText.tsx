@@ -150,7 +150,7 @@ function LandingText() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center  my-32 leading-24 text-primary font-semibold mx-12 lg:mx-48">
+      <div className="flex flex-col items-center leading-24 text-primary font-semibold my-32 xl:w-3/5 mx-auto">
         <Sponsors />
       </div>
     </div>

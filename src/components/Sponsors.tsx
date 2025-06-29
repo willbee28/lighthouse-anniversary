@@ -1,7 +1,7 @@
 const Sponsors = () => {
   return (
     <>
-      <div className="flex items-center text-6xl font-semibold mt-16 text-center leading-12">
+      <div className="flex items-center text-6xl font-semibold mt-16 text-center leading-16">
         <span>Special Thanks to our Sponsors</span>
       </div>
       <div className="flex items-center text-5xl font-semibold mt-16 text-center leading-12">
@@ -9,7 +9,7 @@ const Sponsors = () => {
         <span>Lens Level</span>
         <hr className="border-1 w-30 mx-2 border-slate-600" />
       </div>
-      <div className="flex flex-row flex-wrap justify-center max-w-3/4">
+      <div className="flex flex-row flex-wrap justify-center">
         <div className="w-80 h-80 flex justify-center items-center">
           <a
             href="https://www.petitbon.com/"
@@ -23,20 +23,20 @@ const Sponsors = () => {
             />
           </a>
         </div>
-        <div className="w-100 h-80 flex justify-center items-center">
+        <div className="w-80 h-80 flex justify-center items-center">
           <a
             href="https://www.constellationhome.com/md/areas-we-serve/anne-arundel-county/"
             rel="noopener noreferrer"
             target="_blank"
           >
             <img
-              className="w-full h-full"
+              className="w-[90%] h-[90%] mx-auto"
               src="/sponsor-logos/constellation.png"
               alt="Constellation"
             />
           </a>
         </div>
-        <div className="w-100 h-80 flex justify-center items-center">
+        <div className="w-80 h-80 flex justify-center items-center">
           <a
             href="https://www.chesapeakebaytours.com/"
             className="text-4xl"
@@ -46,7 +46,7 @@ const Sponsors = () => {
             Bay Tours LLC
           </a>
         </div>
-        <div className="w-100 h-80 flex justify-center items-center">
+        <div className="w-80 h-80 flex justify-center items-center text-center">
           <a
             href="https://www.gosnellfoundation.org/"
             className="font-abril-text text-5xl mx-auto"
@@ -56,16 +56,29 @@ const Sponsors = () => {
             Gosnell Foundation
           </a>
         </div>
-        <div className="w-100 h-80 flex justify-center items-center">
+        <div className="w-80 h-80 flex justify-center items-center">
           <a
             href="https://www.mdquesters.org/"
             rel="noopener noreferrer"
             target="_blank"
           >
             <img
-              className="w-40 pt-10"
+              className="w-35 pt-10"
               src="/sponsor-logos/questers.png"
               alt="Questers"
+            />
+          </a>
+        </div>
+        <div className="w-80 h-80 flex justify-center items-center">
+          <a
+            href="https://watermarkjourney.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              className="w-60 pt-10"
+              src="/sponsor-logos/watermark.png"
+              alt="Watermark"
             />
           </a>
         </div>
