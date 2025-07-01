@@ -37,12 +37,7 @@ const Sponsors = () => {
           </a>
         </div>
         <div className="w-80 h-80 flex justify-center items-center">
-          <a
-            href="https://www.chesapeakebaytours.com/"
-            className="text-4xl"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
+          <a className="text-4xl" rel="noopener noreferrer" target="_blank">
             Bay Tours LLC
           </a>
         </div>
