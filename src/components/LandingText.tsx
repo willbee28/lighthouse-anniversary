@@ -3,15 +3,25 @@ import Sponsors from "./Sponsors";
 function LandingText() {
   return (
     <div className="bg-amber-50">
-      <div className="text-5xl text-center my-32 leading-24 text-slate-600 font-semibold px-12 lg:px-48">
+      <div className="text-2xl sm:text-3xl lg:text-5xl text-center my-8 sm:my-16 leading-tight sm:leading-16 xl:leading-20 text-slate-600 font-semibold px-4 sm:px-12 lg:px-48">
         Join us for{" "}
         <span>
           the <span>150th</span> Anniversary Celebration{" "}
         </span>
         of the Thomas Point Shoal Lighthouse
       </div>
+      <div className="flex justify-center mb-16 xl:mb-36">
+        <a
+          className="border bg-primary text-white rounded px-6 py-3 hover:bg-primary/90 transition-colors"
+          href="https://www.eventbrite.com/e/thomas-point-shoal-lighthouse-150th-anniversary-celebration-tickets-1321907764709?aff=oddtdtcreator"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="text-2xl">Buy tickets</div>
+        </a>
+      </div>
       <div className="grid grid-cols-1 xl:grid-cols-2">
-        <div className=" px-12 mt-12 text-4xl leading-12 text-center ">
+        <div className=" px-4 sm:px-12 text-lg sm:text-2xl lg:text-4xl leading-7 sm:leading-12 text-center ">
           The Thomas Point Shoal Lighthouse will celebrate its 150th anniversary
           this year with a special celebration on August 9, 2025. The
           Anniversary Celebration is a call to action because the lighthouse
@@ -28,20 +38,20 @@ function LandingText() {
         <img
           src="./Seagulls.jpg"
           alt="Lighthouse Picture 1"
-          className="h-150 w-200 object-cover object-left mx-auto rounded-sm"
+          className="h-64 sm:h-150 w-full sm:w-200 object-cover object-left mx-auto rounded-sm"
         />
       </div>
-      <div className="flex flex-col items-center pt-24 pb-36 px-12 lg:px-48 text-4xl leading-12 text-center">
+      <div className="flex flex-col items-center pt-24 pb-36 px-4 sm:px-12 lg:px-48 text-lg sm:text-2xl lg:text-4xl leading-7 sm:leading-12 text-center">
         Sponsors and ticket sales for the event will provide funding to develop
         an engineering solution on how to elevate the lighthouse.
       </div>
 
-      <div className="flex flex-col items-center pt-36 sm:px-12 3xl:px-48 bg-primary text-primary-foreground text-4xl">
+      <div className="flex flex-col items-center pt-36 px-4 sm:px-12 3xl:px-48 bg-primary text-primary-foreground text-lg sm:text-2xl lg:text-4xl">
         <div className="grid grid-cols-1 xl:grid-cols-2">
           <img
             src="./Thomas Point.jpg"
             alt="Lighthouse Picture 1"
-            className="w-150 h-200 mx-auto object-cover rounded-sm"
+            className="w-full sm:w-150 h-64 sm:h-200 mx-auto object-cover rounded-sm"
           />
           <div className="flex flex-col items-center">
             <div className="flex items-center font-semibold mb-8 mt-12">
@@ -49,7 +59,7 @@ function LandingText() {
               <span className="text-center">Invited Guest Speakers</span>
               <hr className="border-1 w-30 mx-2" />
             </div>
-            <div className="text-center font-light leading-12">
+            <div className="text-center font-light leading-7 sm:leading-12">
               - US Senator{" "}
               <b className="text-orange-200  font-bold">Chris Van Hollen</b>
               <br /> - Congressman{" "}
@@ -59,7 +69,7 @@ function LandingText() {
               <br /> - US Congresswoman{" "}
               <b className="text-orange-200 font-bold">Sarah Elfreth</b>
               <br /> - County Executive{" "}
-              <b className="text-orange-200 font-bold">Stuart Pittman</b>
+              <b className="text-orange-200 font-bold">Steuart Pittman</b>
               <br /> - Annapolis Mayor{" "}
               <b className="text-orange-200 font-bold">Gavin Buckley</b>
               <br /> - Former Annapolis Mayor{" "}
@@ -76,7 +86,7 @@ function LandingText() {
           <span className="text-center">Included in your ticket</span>
           <hr className="border-1 w-30 mx-2" />
         </div>
-        <div className="flex flex-col my-8 gap-4 text-center leading-16">
+        <div className="flex flex-col my-8 gap-4 text-center leading-8 sm:leading-16">
           -Dinner
           <br />
           - Door prizes
@@ -104,16 +114,15 @@ function LandingText() {
           <hr className="border-1 w-30 mx-2" />
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 mt-12 mb-24 lg:gap-12">
-          <div className="flex justify-center">
+          <div className="flex justify-center px-4">
             <iframe
-              className="rounded-lg"
+              className="rounded-lg w-full max-w-md lg:max-w-lg"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3117.833947854635!2d-76.507076!3d38.985019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7f6febe704655%3A0x86dfe775a92d93e3!2sNavy-Marine%20Corps%20Memorial%20Stadium!5e0!3m2!1sen!2sus!4v1683678924132"
-              width="500"
-              height="400"
+              height="300"
               loading="lazy"
             ></iframe>
           </div>
-          <div className="text-center leading-12 mt-28 ml-4">
+          <div className="text-center leading-7 sm:leading-12 mt-8 lg:mt-28 ml-4">
             <div className="">Navy Marine Corp Memorial Stadium</div>
             <div className="">Taylor Avenue, Annapolis, Md.</div>
           </div>
@@ -130,7 +139,7 @@ function LandingText() {
           <div className="mt-4">
             Premium tickets <b>$250</b> per person (limit 50 tickets)
           </div>
-          <div className="mt-10 leading-14">
+          <div className="mt-10 leading-7 sm:leading-14">
             <div>Premium tickets include:</div>
             - Meet and greet with guest speakers
             <br />
@@ -142,10 +151,10 @@ function LandingText() {
             <a
               className="text-amber-400 hover:text-blue-900 hover:underline"
               href="https://www.eventbrite.com/e/thomas-point-shoal-lighthouse-150th-anniversary-celebration-tickets-1321907764709?aff=oddtdtcreator"
-              rel="noopener noreferrer"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              here
+              on Eventbrite
             </a>
           </div>
         </div>
