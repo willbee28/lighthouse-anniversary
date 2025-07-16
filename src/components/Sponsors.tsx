@@ -224,6 +224,16 @@ const Sponsors = () => {
             <img src="/sponsor-logos/naptown_scoop.png" alt="Nap Town Scoop" />
           </a>
         </div>
+        <div className="w-45 h-40 flex flex-col justify-center items-center">
+          <a
+            href="https://chesapeakecrossroads.org/"
+            className=""
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img src="/sponsor-logos/chesapeake.webp" alt="Nap Town Scoop" />
+          </a>
+        </div>
       </div>
       <div className="flex flex-col ga text-center leading-6 text-lg mt-16">
         <div className="flex xl:flex-row flex-col gap-3">
