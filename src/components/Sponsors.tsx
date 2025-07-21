@@ -108,7 +108,7 @@ const Sponsors = () => {
             <img src="/sponsor-logos/marine.png" alt="Marine Solutions" />
           </a>
         </div>
-        <div className="w-40 flex justify-center items-center">
+        <div className="w-45 h-45 flex flex-col justify-center items-center">
           <a
             href="https://www.maderperformanceinsurance.com/"
             className=""
@@ -116,6 +116,16 @@ const Sponsors = () => {
             target="_blank"
           >
             <img src="/sponsor-logos/craig.png" alt="Craig Mader Insurance" />
+          </a>
+        </div>
+        <div className="w-60 h-60 flex flex-col justify-center items-center">
+          <a
+            href="https://chesapeakecrossroads.org/"
+            className=""
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img src="/sponsor-logos/chesapeake.webp" alt="Nap Town Scoop" />
           </a>
         </div>
       </div>
@@ -222,16 +232,6 @@ const Sponsors = () => {
             target="_blank"
           >
             <img src="/sponsor-logos/naptown_scoop.png" alt="Nap Town Scoop" />
-          </a>
-        </div>
-        <div className="w-45 h-40 flex flex-col justify-center items-center">
-          <a
-            href="https://chesapeakecrossroads.org/"
-            className=""
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <img src="/sponsor-logos/chesapeake.webp" alt="Nap Town Scoop" />
           </a>
         </div>
       </div>
